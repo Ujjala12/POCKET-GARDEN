@@ -1,0 +1,61 @@
+/* Simple cute styles  */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#a5eca5, #9ef0c9);
+    color: #105115;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    width: 360px;
+    padding: 20px;
+    background: rgba(237, 244, 218, 0.85);
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    text-align: center;
+  }
+  
+  h1 { margin: 0 0 12px; font-size: 24px; }
+  .controls { display: flex; gap: 8px; justify-content: center; margin-bottom: 12px; }
+  #taskInput {
+    flex: 1;
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    font-size: 14px;
+  }
+  #addBtn {
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    background: #7ad3a6;
+    cursor: pointer;
+  }
+  
+  #taskList { list-style: none; padding: 0; margin: 0 0 16px; text-align: left; }
+  #taskList li {
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    cursor: pointer;
+  }
+  #taskList li.done { text-decoration: line-through; opacity: 0.6; cursor: default; }
+  
+  #garden {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 80px;
+    padding: 12px;
+    background: linear-gradient(#eafbe9, #f7fff7);
+    border-radius: 12px;
+    border: 1px dashed #dbeadf;
+  }
+  .plant { font-size: 28px; }
